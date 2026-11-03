@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+
+    <Style TargetType="Button">
+        <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource MetinAcik}, Dark={StaticResource MetinKoyu}}" />
+        <Setter Property="FontSize" Value="24" />
+        <Setter Property="CornerRadius" Value="8" />
+        <Setter Property="Margin" Value="2" />
+    </Style>
+
+   
+    <Style x:Key="RakamStili" TargetType="Button">
+        <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource MetinAcik}, Dark={StaticResource MetinKoyu}}" />
+        <Setter Property="FontSize" Value="24" />
+        <Setter Property="CornerRadius" Value="8" />
+        <Setter Property="Margin" Value="2" />
+        <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource RakamBgAcik}, Dark={StaticResource RakamBgKoyu}}" />
+        <Setter Property="FontAttributes" Value="Bold" />
+    </Style>
+
+   
+    <Style x:Key="IslemStili" TargetType="Button">
+        <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource MetinAcik}, Dark={StaticResource MetinKoyu}}" />
+        <Setter Property="FontSize" Value="24" />
+        <Setter Property="CornerRadius" Value="8" />
+        <Setter Property="Margin" Value="2" />
+        <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource OperatorBgAcik}, Dark={StaticResource OperatorBgKoyu}}" />
+    </Style>
+
+   
+    <Style x:Key="EsittirStili" TargetType="Button">
+        <Setter Property="TextColor" Value="White" />
+        <Setter Property="FontSize" Value="24" />
+        <Setter Property="CornerRadius" Value="8" />
+        <Setter Property="Margin" Value="2" />
+        <Setter Property="BackgroundColor" Value="{StaticResource VurguRenk}" />
+    </Style>
+
+    <Style TargetType="ContentPage" ApplyToDerivedTypes="True">
+        <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource ArkaPlanAcik}, Dark={StaticResource ArkaPlanKoyu}}" />
+    </Style>
+
+    <Style TargetType="Label" ApplyToDerivedTypes="True">
+        <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource MetinAcik}, Dark={StaticResource MetinKoyu}}" />
+    </Style>
+
+</ResourceDictionary>

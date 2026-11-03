@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <Color x:Key="Primary">#6D3FE0</Color>
+    <Color x:Key="Secondary">#DFD8F7</Color>
+    <Color x:Key="White">#FFFFFF</Color>
+    <Color x:Key="Black">#000000</Color>
+    <Color x:Key="OffBlack">#121212</Color>
+
+    <Color x:Key="Gray100">#F5F5F5</Color>
+    <Color x:Key="Gray200">#E0E0E0</Color>
+    <Color x:Key="Gray300">#BDBDBD</Color>
+    <Color x:Key="Gray400">#9E9E9E</Color>
+    <Color x:Key="Gray500">#757575</Color>
+    <Color x:Key="Gray600">#616161</Color>
+    <Color x:Key="Gray900">#212121</Color>
+    <Color x:Key="Gray950">#141414</Color>
+
+    <Color x:Key="ArkaPlanAcik">#F3F3F3</Color>
+    <Color x:Key="ArkaPlanKoyu">#202020</Color>
+    <Color x:Key="MetinAcik">#000000</Color>
+    <Color x:Key="MetinKoyu">#FFFFFF</Color>
+
+    <Color x:Key="RakamBgAcik">#FFFFFF</Color>
+    <Color x:Key="RakamBgKoyu">#3B3B3B</Color>
+
+    <Color x:Key="OperatorBgAcik">#F9F9F9</Color>
+    <Color x:Key="OperatorBgKoyu">#323232</Color>
+
+    <Color x:Key="VurguRenk">#6D3FE0</Color>
+</ResourceDictionary>

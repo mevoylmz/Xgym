@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HesapMakinesi.AyarlarPage"
+             Title="Ayarlar">
+
+    <VerticalStackLayout Padding="20" Spacing="20">
+        <Label Text="Görünüm Tema Ayarı" FontSize="20" FontAttributes="Bold" HorizontalOptions="Center" />
+
+        <Picker x:Name="TemaPicker" Title="Tema Seçin" SelectedIndexChanged="TemaPicker_SelectedIndexChanged" HorizontalOptions="Center" WidthRequest="200">
+            <Picker.Items>
+                <x:String>Sistem</x:String>
+                <x:String>Açık</x:String>
+                <x:String>Koyu</x:String>
+            </Picker.Items>
+        </Picker>
+    </VerticalStackLayout>
+</ContentPage>

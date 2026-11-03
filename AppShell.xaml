@@ -1,0 +1,21 @@
+<Shell
+    x:Class="HesapMakinesi.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:HesapMakinesi"
+    FlyoutBehavior="Flyout"
+    Title="Hesap Makinesi">
+
+    <FlyoutItem Title="Standart" Icon="dotnet_bot.png">
+        <ShellContent ContentTemplate="{DataTemplate local:StandartPage}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Bilimsel" Icon="dotnet_bot.png">
+        <ShellContent ContentTemplate="{DataTemplate local:BilimselPage}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Ayarlar" Icon="dotnet_bot.png">
+        <ShellContent ContentTemplate="{DataTemplate local:AyarlarPage}" />
+    </FlyoutItem>
+
+</Shell>
